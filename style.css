@@ -1,5 +1,6 @@
 *{
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -53,8 +54,28 @@ a::onclick{
 
 
 .active{
-    
     border-bottom: 1px solid rgb(255, 255, 255)
     
 
 }
+
+
+.demo-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .demo-bg {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: -20;
+    width: 100%;
+    height: 100%;
+    height: auto;
+  }
+  
+  .demo-content {
+    position: relative;
+    line-height: 4rem;
+  }
