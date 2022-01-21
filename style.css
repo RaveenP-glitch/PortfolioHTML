@@ -10,8 +10,7 @@
 
 .nav-items{
     position: relative;
-    top: 1rem;
-    margin-top:-1.5rem;
+    top:-1.5rem;
     width: 45%;
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +20,10 @@
     font-weight:500;
 
 
+}
+
+.item{
+    margin-right: 2.1rem;
 }
 
 #logo{
