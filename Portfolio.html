@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,33 +11,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <ul class="navigation-bar">
-            <img id="logo" src="/images/Watermark-white.png" alt="logo" width="40px">
+            <img id="logo" src="images/signature.png" alt="logo" width="250px">
             <div class="nav-items">
-            <a class="item" href="index.html">Home</a>
-            <a class="item" href="AboutMe.html">About Me</a>
-            <a class="item" href="Portfolio.html">Portfolio</a>
-            <a class="item" href="Products.html">Products & Services</a>
-            <a class="item" href="Contact.html">Contact</a>
-             </div>
+                <a class="item" href="index.html">Home</a>
+                <a class="item" href="AboutMe.html">About Me</a>
+                <a class="item" href="Portfolio.html">Portfolio</a>
+                <a class="item" href="Products.html">Products & Services</a>
+                <a class="item" href="Contact.html">Contact</a>
+            </div>
         </ul>
 
     </nav>
 
     <div class="headings">
-        <br/>
-        <br/>
+        <br />
+        <br />
         <h1> Landscape & Outdoor Photography</h1>
-        <br/>
-        <h1> Web Design/UI Projects</h1>
-        <br/>
-        <h1>Video Editing</h1>
-        <br/>
-      
-        <br/>
+        <br />
+        <br />
+        <div class="card-container">
+            <div class="card" style="margin-right: 30px;">
+                <img src="images/pic1.png" alt="" width="85%">
+                <br />
+                
+            </div>
+            <div class="card" style="margin-right: 30px;">
+                <img src="images/pic2.jpg" alt="" width="85%">
+                <br />
+              
+
+            </div>
+            <div class="card">
+                <img src="images/pic3.jpg" alt="" width="85%">
+                <br />
+               
+            </div>
         </div>
+        <button class="button-cv">See More >></button>
+
+        <br />
+       
+        <h1> Web Design/UI Projects</h1>
+        <br />
+        <br />
+        <div class="card-container">
+            <div class="card" style="margin-right: 30px;">
+                <img src="images/web1.png" alt="" width="85%">
+                <br />
+                <h4>React Website</h4>
+                <p>Simple React website with CSS styling.<br/>
+                Easy navigation and responsive design.</p>
+            </div>
+            <div class="card" style="margin-right: 30px;">
+                <img src="images/web2.png" alt="" width="85%">
+                <br />
+                <h4>Landing Page</h4>
+                <p>Landing page sample for some clients in<br/> New Zealand</p>
+
+            </div>
+            <div class="card">
+                <img src="images/web3.png" alt="" width="85%">
+                <br />
+                <h4>InfiTools</h4>
+                <p>Easy to use online calculators and <br/> converters. Designed for <br/>
+                InfiIoT Pvt Ltd.</p>
+            </div>
+        </div>
+        <button class="button-cv">See More >></button>
+
+        <br />
+
+        <br />
+        <h1>Video Editing</h1>
+        <br />
+        <br />
+        <div class="videos">
+            <iframe width="420" height="315" style="margin-right: 25px;" src="https://www.youtube.com/embed/PipX4laaWeQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="420" height="315" style="margin-right: 25px;" src="https://www.youtube.com/embed/GjSO0OGgtak"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/3c0dLO61PX8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+        <br />
+        <br />
+        <button class="button-cv">See More >></button>
+
+        <br />
+    </div>
     </div>
 
 
@@ -44,12 +117,29 @@
 
 
 <style>
-    .headings{
+    .headings {
         display: flex;
         flex-direction: column;
         align-items: center;
 
 
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .card {
+        width: 420px;
+        height: 315px;
+        box-shadow: 5px 5px 10px #9b9b9b;
+        text-align: center;
+        margin-bottom: 4rem;
+        padding-top: 1.5rem;
     }
 </style>
 

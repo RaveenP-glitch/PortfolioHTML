@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,74 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav>
         <ul class="navigation-bar">
-            <img id="logo" src="/images/Watermark-white.png" alt="logo" width="40px">
+            <img id="logo" src="images/signature.png" alt="logo" width="250px">
             <div class="nav-items">
-            <a class="item" href="index.html">Home</a>
-            <a class="item" href="AboutMe.html">About Me</a>
-            <a class="item" href="Portfolio.html">Portfolio</a>
-            <a class="item" href="Products.html">Products & Services</a>
-            <a class="item" href="Contact.html">Contact</a>
-             </div>
+                <a class="item" href="index.html">Home</a>
+                <a class="item" href="AboutMe.html">About Me</a>
+                <a class="item" href="Portfolio.html">Portfolio</a>
+                <a class="item" href="Products.html">Products & Services</a>
+                <a class="item" href="Contact.html">Contact</a>
+            </div>
         </ul>
 
-        
+
 
     </nav>
-    <h1>About Me</h1>
+    <br/>
+    <br/>
+    <br/>
+    <div class="main-container">
+        <div>
+            <h1 align="center">About Me</h1>
+            <br/>
+            <p align="center" style="font-size: large;">Completed my bachelors degree from University of Pune.<br/>
+            Currently pursuing the Masters degree in IT at University of Moratuwa.<br/>
+        Passionate about Web design and Web development. <br/>Also started photography as a hobby and it has become a part of my life now.<br/>
+    Currently working at Marine One Pvt Ltd as an IT Executive.<br/> Sometimes a part-time tutor. </p>
+    <br/>
+    <br/>
+    <button class="button-cv">Download CV</button>
+        </div>
+        <div>
+         
+       
+            <img src="images/profilepic.jpg" alt="" width="110%" style="margin-right: 5rem; padding-right: 3rem;">
+
+        </div>
+    </div>
+
 
 </body>
+
+<style>
+    .main-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    .button-cv{
+        margin-left: 41%;
+        height: 2.5rem;
+        width: 8rem;
+        border-radius: 5px;
+
+    }
+
+    .button-cv:hover{
+        background-color: rgb(100, 43, 81);
+        color: white;
+    }
+
+    .button-cv:active{
+        top: 2px;
+    }
+
+</style>
+
 </html>

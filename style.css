@@ -15,6 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-between;
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
     font-weight:500;
@@ -27,7 +28,7 @@
 }
 
 #logo{
-    margin-left: -110px;
+    margin-left: -100px;
     filter:contrast(150);
 }
 
@@ -74,13 +75,59 @@ a:hover{
     opacity: 0.6;
     position: absolute;
     left: 0;
-    top: -20px;
+    top: -6rem;
     width: 100%;
-    height: 100%;
-    height: auto;
+    height: 110%;
+    margin-top: -20px;
+  
   }
   
   .demo-content {
     position: relative;
-    line-height: 4rem;
+    left: -24rem;
+    line-height: 2rem;
   }
+
+
+  .title-text{
+    font-size: 310% !important;
+  
+  }
+
+  .secondary-text{
+    font-size: 180% !important;
+    margin-top: 1rem;
+
+  }
+
+  .paragraph{
+    font-size: 110% !important;
+
+  }
+
+  .dots{
+    font-size: 310% !important;
+  }
+
+  .black-bar{
+    height:3.4rem;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .button-cv{
+    margin-left: 45%;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 5px;
+
+}
+
+.button-cv:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.button-cv:active{
+    top: 2px;
+}
+

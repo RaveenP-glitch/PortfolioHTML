@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,49 +11,102 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
     <nav>
         <ul class="navigation-bar">
-            <img id="logo" src="/images/Watermark-white.png" alt="logo" width="40px">
+            <img id="logo" src="images/signature.png" alt="logo" width="250px">
             <div class="nav-items">
-            <a class="item" href="index.html">Home</a>
-            <a class="item" href="AboutMe.html">About Me</a>
-            <a class="item" href="Portfolio.html">Portfolio</a>
-            <a class="item" href="Products.html">Products & Services</a>
-            <a class="item" href="Contact.html">Contact</a>
-             </div>
+                <a class="item" href="index.html">Home</a>
+                <a class="item" href="AboutMe.html">About Me</a>
+                <a class="item" href="Portfolio.html">Portfolio</a>
+                <a class="item" href="Products.html">Products & Services</a>
+                <a class="item" href="Contact.html">Contact</a>
+            </div>
         </ul>
 
-      
+
 
     </nav>
 
-    <div class="headings">
-        <br/>
-        <br/>
-        <h1> Photography</h1>
-        <br/>
-        <h1> Web Design</h1>
-        <br/>
-        <h1> Photo & Video Editing</h1>
-        <br/>
-        <h1> Lightroom Presets</h1>
-        <br/>
-        <h1> Prints</h1>
-        <br/>
+
+    </div>
+    <br/>
+    <br/>
+
+    <div>
+        <div class="card-container">
+            <div class="card">
+                <h1> Photography</h1>
+                <br />
+                <button class="btn-more">Inquiry >></button>
+                <br />
+
+            </div>
+            <div class="card">
+                <h1> Web Design</h1>
+                <br />
+                <button class="btn-more">Inquiry>></button>
+                <br />
+
+            </div>
+            <div class="card">
+                <h1> Photo & Video Editing</h1>
+                <br />
+                <button class="btn-more">Check plans>></button>
+                <br />
+
+            </div>
+            <div class="card">
+                <h1> Lightroom Presets</h1>
+                <br />
+                <button class="btn-more">Buy?</button>
+                <br />
+
+            </div>
+            <div class="card">
+                <h1> Prints</h1>
+                <br />
+                <button class="btn-more">Buy?</button>
+                <br />
+
+            </div>
         </div>
     </div>
 
 </body>
 
 <style>
-    .headings{
+    .headings {
         display: flex;
         flex-direction: column;
         align-items: center;
 
 
     }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .card{
+        width: 80%;
+        height: 140%;
+        box-shadow: 5px 5px 10px #9b9b9b ;
+        text-align: center;
+        margin-bottom: 4rem;
+        padding-top: 1.5rem;
+    }
+
+    .btn-more{
+        margin-bottom: 30px;
+    }
+
 </style>
+
 </html>
