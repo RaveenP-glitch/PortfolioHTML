@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav>
+    <!-- <nav>
         <ul class="navigation-bar">
             <img id="logo" src="images/signature.png" alt="logo" width="250px">
             <div class="nav-items">
@@ -27,34 +27,56 @@
 
 
 
-    </nav>
-    <br/>
-    <br/>
-    <br/>
+    </nav> -->
+
+    <div class="topnav" id="myTopnav">
+
+        <img id="logo" src="images/signature.png" alt="logo" width="180px" height="50px" style="float: right; padding-top: 3px; margin-right: 0rem;">
+      
+        <a href="index.html" class="active">Home</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="Products.html">Products & Services</a>
+        <a href="Contact.html">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            
+          <i class="fa fa-bars"></i>
+        
+        </a>
+     
+        
+      </div>
+
+
+
+    <br />
+    <br />
+    <br />
     <div class="main-container">
         <div>
             <h1 align="center">About Me</h1>
-            <br/>
-            <p align="center" style="font-size: large;">Completed my bachelors degree from University of Pune.<br/>
-            Currently pursuing the Masters degree in IT at University of Moratuwa.<br/>
-        Passionate about Web design and Web development. <br/>Also started photography as a hobby and it has become a part of my life now.<br/>
-    Currently working at Marine One Pvt Ltd as an IT Executive.<br/> Sometimes a part-time tutor. </p>
-    <br/>
-    <br/>
-    <a href="CV.pdf" download><button class="button-cv" style="cursor: pointer;" >Download CV</button></a>
+            <br />
+            <p align="center" style="font-size: large;">Completed my bachelors degree from University of Pune.<br />
+                Currently pursuing the Masters degree in IT at University of Moratuwa.<br />
+                Passionate about Web design and Web development. <br />Also started photography as a hobby and it has
+                become a part of my life now.<br />
+                Currently working at Marine One Pvt Ltd as an IT Executive.<br /> Sometimes a part-time tutor. </p>
+            <br />
+            <br />
+            <a href="CV.pdf" download><button class="button-cv" style="cursor: pointer;">Download CV</button></a>
         </div>
         <div>
-         
-       
+
+
             <img src="images/profilepic.jpg" alt="" width="110%" style="margin-right: 5rem; padding-right: 3rem;">
 
         </div>
     </div>
 
     <div>
-        <br/>
-        <br/>
-        <br/>
+        <br />
+        <br />
+        <br />
     </div>
 
     <footer>
@@ -65,9 +87,11 @@
             </div>
 
             <div class="policy-section" style="color: white; margin-left: -11rem;">
-                At Personal portfolio, accessible from https://myportfoliotrp.netlify.app/,<br /> one of our main priorities is
-                the privacy of our visitors. <br/>This Privacy Policy document contains types of information that is<br/>
-                collected and recorded by Personal portfolio and how we use it.<br/><br/>
+                At Personal portfolio, accessible from https://myportfoliotrp.netlify.app/,<br /> one of our main
+                priorities is
+                the privacy of our visitors. <br />This Privacy Policy document contains types of information that
+                is<br />
+                collected and recorded by Personal portfolio and how we use it.<br /><br />
                 <a>View Privacy Policy>></a>
             </div>
 
@@ -90,7 +114,7 @@
 
         <p align="center" class="footer-note">&copy; Developed by T.R. Panditha.</p>
 
-        
+
 
     </footer>
 
@@ -98,14 +122,14 @@
 </body>
 
 <style>
-    .main-container{
+    .main-container {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between
     }
 
-    .button-cv{
+    .button-cv {
         margin-left: 41%;
         height: 2.5rem;
         width: 8rem;
@@ -113,17 +137,16 @@
 
     }
 
-    .button-cv:hover{
+    .button-cv:hover {
         background-color: rgb(100, 43, 81);
         color: white;
     }
 
-    .button-cv:active{
+    .button-cv:active {
         top: 2px;
     }
-
-
-
 </style>
+
+<script src="app.js"></script>
 
 </html>
